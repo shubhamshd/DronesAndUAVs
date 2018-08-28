@@ -1,0 +1,55 @@
+input
+{
+	outline:none;
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid #D3D3D3;
+	border-radius: 4px;
+	font-family: "Verdana";
+	font-style:italic;
+	font-weight:bold;
+	color: #008080;
+}
+input:focus
+{
+	border: 2px solid cyan;
+}
+input[type=submit]
+{
+	border: 2px solid #008080;
+	width: 80%;
+    color: #008080;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transition: width 0.4s;
+    transition-timing-function: linear;
+}
+input[type=submit]:hover
+{
+	background-color: #008080;
+	color: white;
+	width: 100%;
+} 
+td
+{
+	font-family: "Verdana";
+	font-style:italic;
+
+}
+
+.backgroundimage{
+    opacity: 100;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.backgroundimage{
+    background-image: url('image.jpg');
+    min-height: 100%;
